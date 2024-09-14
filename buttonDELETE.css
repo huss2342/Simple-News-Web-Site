@@ -1,0 +1,12 @@
+.restore-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.restore-button:hover {
+    background-color: #45a049;
+}

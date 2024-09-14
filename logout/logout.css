@@ -1,0 +1,12 @@
+/* Style form input fields */
+form input[type="text"],
+form input[type="password"],
+form input[type="submit"],
+form textarea {
+    background-color: #444;  /* Set the background color */
+    color: rgb(232, 230, 227);  /* Set the color of the text */
+    border: none;  /* Remove border */
+    padding: 10px;  /* Padding */
+    margin-bottom: 10px;  /* Bottom margin */
+    border-radius: 5px;  /* Rounded corners */
+}

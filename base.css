@@ -1,0 +1,94 @@
+/* Set styles for the entire body of the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(26, 28, 29);
+    color: rgb(232, 230, 227);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Set padding for the header, navigation, main content, and footer */
+header,
+nav,
+main,
+footer {
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    background-color: rgb(13, 14, 14);
+    border-bottom: 1px solid rgb(168, 164, 157);
+}
+
+/* Login message styling */
+.login-message {
+    color: rgb(60, 179, 113);
+    background-color: rgb(31, 34, 31);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the navigation menu items */
+nav ul li {
+    display: inline-block;
+    position: relative;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+/* Style the links in the navigation menu */
+nav ul li a {
+    color: rgb(232, 230, 227);
+    text-decoration: none;
+    display: block;
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Change the color of navigation links on hover */
+nav ul li a:hover {
+    color: rgb(19, 23, 22);
+    background: rgb(157, 209, 157);
+}
+
+/* Style the main content area */
+main {
+    border-top: 1px solid rgb(168, 164, 157);
+    background-color: rgb(38, 42, 43);
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1 0 auto;
+}
+
+/* Style the form labels */
+form label {
+    color: rgb(232, 230, 227);
+}
+
+/* Style the footer */
+footer {
+    border-top: 1px solid rgb(168, 164, 157);
+    background-color: #111;
+    color: rgb(232, 230, 227);
+    text-align: center;
+    font-size: 12px;
+    flex-shrink: 0;
+}

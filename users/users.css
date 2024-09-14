@@ -1,0 +1,83 @@
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  .user-table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #1114149c;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(219, 164, 164, 0.1);
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .user-table th {
+    background-color: #9dd19d;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  .user-table th:nth-child(1){
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .user-table th:nth-child(2){
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;    
+  }
+  
+  .user-delete {
+    padding: 5px 10px;
+    background-color: #d84554;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .user-promote {
+    padding: 5px 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .user-demote {
+    padding: 5px 10px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-delete:hover {
+    background-color: #e0162a;
+  }
+  
+  .deleted-username {
+    font-weight: bold;
+  }
+
+  .cancel-button {
+    background-color: lightgreen;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+  
+  

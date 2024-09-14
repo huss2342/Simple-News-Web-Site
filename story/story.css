@@ -1,0 +1,97 @@
+.story {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #888;
+    padding-bottom: 20px;
+}
+
+
+.story-title {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #8ced8c;
+    border-bottom: 2px solid #aaa;
+    padding-bottom: 10px;
+    margin-bottom: 1px;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #8ced8c;
+}
+
+.story-content {
+    width: 70%;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 1.1em;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.story-info {
+    font-size: small;
+    margin-top: 10px;
+    color: #aaa;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    border-bottom: 1px solid #555;
+}
+
+.comment {
+    margin-top: 10px;
+    color: #ccc;  
+    padding: 10px;  
+    border-radius: 5px;
+    border: 1px solid #555;  
+    margin-bottom: 20px;
+    font-size: 0.9em; 
+    background-color: transparent;
+}
+
+
+/* story view buttons */
+.link-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+
+.link-button:hover {
+    background-color: #45a049;
+}
+
+.link-button:active {
+    background-color: #3d8b40;
+}
+
+.link-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.link-button a:hover {
+    text-decoration: underline;
+}
+
+.story-edit-button,
+.story-delete-button {
+    font-size: 13px;
+    padding: 5px 10px;
+    background-color: rgb(142, 61, 61);
+}
+
+/* for comments */
+.comment-delete-button,
+.comment-edit-button {
+    font-size: 8px;
+    padding: 5px 10px;
+}

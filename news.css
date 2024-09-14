@@ -1,0 +1,27 @@
+.story-link {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a.story-link:visited {
+    color: rgb(112, 192, 112) !important;
+}
+
+a.story-link:hover {
+    color: rgb(152, 222, 152) !important;
+    text-decoration: underline;
+}
+.story {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 8px;  /* Adds some space between the border and the content of the story */
+    margin-bottom: 8px;  /* Adds some space between stories */
+}
+
+.story h2 {
+    margin-bottom: 0.5em;  /* Reduces space under the title. Adjust value to your needs */
+}
+
+.story-info p {
+    margin-top: 0.5em;  /* Reduces space above the 'Submitted by' text. Adjust value to your needs */
+}
